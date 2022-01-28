@@ -21,7 +21,7 @@ The repo consists of the core self-containing code used in the earliest model of
 
 1. Download from dropbox
 2. Download** PyCharm professional:
-      • https://www.jetbrains.com/pycharm/download/#section=windows
+      * https://www.jetbrains.com/pycharm/download/#section=windows
       • Activate free educational license through academic institution for
          unlimited usage
 3. Click File, then New Project
