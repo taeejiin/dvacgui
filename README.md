@@ -21,15 +21,15 @@ The repo consists of the core self-containing code used in the earliest model of
 
 1. Download from dropbox
 2. Download** PyCharm professional:
-      https://www.jetbrains.com/pycharm/download/#section=windows
-      a. Activate free educational license through academic institution for
+      • https://www.jetbrains.com/pycharm/download/#section=windows
+      • Activate free educational license through academic institution for
          unlimited usage
 3. Click File, then New Project
 4. Select Pure Python
 5. Name the file DataVisualizationAndCalculationGUI and specify a directory
 6. Select the following information for Project Interpreter:
-      a. New environment using: Virtualenv
-      b. Base interpreter: Python 3.8.3
+      • New environment using: Virtualenv
+      • Base interpreter: Python 3.8.3
 7. Click Create
 8. Right click the folder that has the name of the file
 9. Hover New
