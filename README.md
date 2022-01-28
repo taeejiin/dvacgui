@@ -10,16 +10,16 @@ The repo consists of the core self-containing code used in the earliest model of
 
 ## General Launching & Setup Guidelines
 
-# For MacOS X+
+### For MacOS X+
 
-1. Download from dropbox
+1. Download from dropbox (github repo is equivalent)
 2. Open DVaCGUI.zip
 3. Open DVaCGUI.app to launch the software
       * May need to allow authorization for opening software off open web
 
-# For Windows 10 OS+
+### For Windows 10 OS+
 
-1. Download from dropbox
+1. Download from dropbox(github repo is equivalent)
 2. Download** PyCharm professional:
       * https://www.jetbrains.com/pycharm/download/#section=windows
       * Activate free educational license through academic institution for unlimited usage
@@ -58,19 +58,20 @@ The repo consists of the core self-containing code used in the earliest model of
       * Arbitrary displacement peaks
       * Load controlled
       * Arbitrary load peaks
-4. For each .csv file, can click CSV File + .csv file # to open Data Calculations window
+4. For each .csv file, can click CSV File + .csv file # to open Data Calculations window.
 5. The windows are:
       * Main window: CSV Interface (where steps 1-4 occur)
       * Secondary window: Data Calculation
       * Tertiary window: Statistics Interface
       * Quaternary window: Weibull Distributions Interface
-      * 
-In Data Calculation window:
-1. Choose raw data to plot with Select Abscissa and Select Ordinate drop-downs
+
+### In Data Calculation window:
+
+1. Choose raw data to plot with Select Abscissa and Select Ordinate drop-downs.
 2. For all calculations, in numeric input areas, hit enter/return on keyboard after you
-input a value for the program to register the value
+input a value for the program to register the value.
 3. After a calculation is completed, click Refresh Options to update drop-down
-menus for graphing as well as display output values and information
+menus for graphing as well as display output values and information.
 4. If a calculation cannot be done, a pop-up window appears that outlines what may
 be missing such that the calculation cannot be done.
 5. Available calculations:
@@ -82,28 +83,28 @@ be missing such that the calculation cannot be done.
       * Ultimate failure stress-strain
       * Energy dissipated
       * Burst events: # of bursts, lower & upper bound stress-strain of bursts, size of bursts (strain range)
-6. Change domain and range of plot, then click Refresh Options to update graph
-7. Export graph as .svg file
-a. Name of .svg file is y-axis + units vs. x-axis + units
+6. Change domain and range of plot, then click Refresh Options to update graph.
+7. Export graph as .svg file.
+a. Name of .svg file is y-axis + units vs. x-axis + units.
 8. Do not dismiss Data Calculation window for update main DVaC GUI window
-functionality
+functionality.
 
-In CSV Interface window:
+### In CSV Interface window:
 
-1. Choose same data for each Select Abscissa and Select Ordinate of each .csv file
-2. Click Plot All to display all plots onto the same graph
-3. If Data Calculation windows are open and calculations have been done using them for the .csv files, click Refresh Plot-able Options to update Select Abscissa and Select Ordinate drop-downs with calculated data
-4. Change domain and range of plot, then click Refresh Plot-able Options to update graph
+1. Choose same data for each Select Abscissa and Select Ordinate of each .csv file.
+2. Click Plot All to display all plots onto the same graph.
+3. If Data Calculation windows are open and calculations have been done using them for the .csv files, click Refresh Plot-able Options to update Select Abscissa and Select Ordinate drop-downs with calculated data.
+4. Change domain and range of plot, then click Refresh Plot-able Options to update graph.
 5. Export graph as a .svg file
       * Name of .svg file is y-axis + units vs. x-axis + units
 
-Output of Statistics Interface window:
+### Output of Statistics Interface window:
 
 1. For all 8 data calculation algorithms, statistics interface stores each calculation for every uploaded data file.
 2. The statistics interface calculates and displays the mean, median, standard deviation, variance, interquartile range, and outliers for the distribution of calculated data.
 3. The statistics interface also displays boxplots for visualization of each mode of statistics calculated.
    
-Output of Weibull Distribution window:
+### Output of Weibull Distribution window:
 
 1. Graphical plot with 4 axes
       a. 1st X-axis: ln Stress
